@@ -1,0 +1,169 @@
+body,nav,h1,h2,h3,h4,p,ul,section,li,div,span,picture{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color:#00B0FF;
+    font-weight:700;
+}
+
+body{
+    font-family: serif "Times New Roman" sans-serif;
+    background-color:#E8EAF6;
+}
+
+.doc{
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.section-Des{
+    border: 2px solid #C5CAE9;
+    border-top:0;
+    padding-bottom:1.5em;
+    marin-bottom:0.5em;
+}
+
+.section-Rel{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.section-Rel div{
+    height:150px;
+    border:2px solid #C5CAE9;
+    border-top:0;
+}
+
+.section-Rel img{
+    height:100%;
+    float:left;
+    max-width:33.3%;
+}
+
+.section-Views h5{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    color:#C5CAE9;
+}
+
+.section-Views div{
+    padding-right:1em;
+    border:2px solid #C5CAE9;
+    padding-left:1em;
+}
+
+.section-Views div p{
+    margin-bottom:0.5em;
+    font-family:"times new roman";
+    font-weight:600;
+}
+
+.date{
+    color:#F5A2C1
+}
+
+.title{
+    color:white;
+}
+
+.m-title{
+    line-height:3em;
+    padding-left:1em;
+    background-color:#7986CB;
+}
+
+.main{
+    background-color:#fff;
+    padding:0.5em;
+}
+
+.fig-part{
+    margin-top:-0.25em;
+    background-color:#C5CAE9;
+    color:#7990A3;
+    line-height:2em;
+}
+
+.sec-p{
+    font-family:"times new roman";
+    font-weight:600;
+    margin:0.5em 1em 1em 1em;
+}
+
+#imgP{
+    width:100%;
+    height:100%;
+}
+
+.headerplus nav{
+    margin-right:1em;
+}
+
+nav p{
+    font-family:"times new roman";
+    font-style:italic;
+    padding-bottom:1em;
+    padding-top:0.1em;
+}
+
+nav h1{
+    padding:0;
+    line-height:1em;
+}
+
+.headerplus{
+    background-color:#1A237E;
+    padding-left:1em;
+    padding-top:1em;
+}
+
+.mainplus{
+    background-color:#3F51B5;
+    height:1.6em;
+    padding:0.3em;
+    padding-left:0.7em;
+    margin-bottom:0.5em;
+}
+
+ul li{
+    float:left;
+    list-style-type:none;
+    margin-right:0.3em;
+}
+
+ul a:hover{
+    background-color:#F50057;
+    color:#fff;
+}
+
+.options{
+    float:right;
+    margin-right:1em;
+}
+
+footer{
+    margin-top:0.5em;
+    background-color:#1A237E;
+    padding-left:1em;
+    padding-top:1.3em;
+    padding-bottom:1.3em;
+}
+
+footer div{
+    margin-bottom:0.6em;
+}
+
+footer span{
+    color:white;
+}
+
+.views-h{
+    border-bottom:0px solid #b1b1b1;
+    margin-bottom:0em;
+}
+
+.picture{
+    margin-right:0.5%;
+}
