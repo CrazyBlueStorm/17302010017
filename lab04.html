@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 04</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/reset.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/lab04.css"/>
+</head>
+<body>
+<header>
+    <h1>Share Your Travels</h1>
+
+    <p>let us know where you've been</p>
+</header>
+
+<main>
+    <section>
+        <form class = "" action = "http://www.randyconnolly.com/tests/process.php" method = "post">
+            <fieldset>
+                <legend>PHOTO DETAILS</legend>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan = "2">
+                                <p>Title</p>
+
+                                <input type = "text" name = "title" value = "" palceholder = "Give your photo a descriptive name">
+
+                                <p>Description</p>
+
+                                <textarea name = "name" rows = "8" cols = "80" placeholder = "Adding a rich description will help with search results"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Continent</p>
+
+                                <select class = "" name = "Continent">
+                                    <option>Choose Continent</option>
+                                </select>
+
+                                <p>Country</p>
+
+                                <select class = "" name = "Country" placeholder = "Choose Continent">
+                                    <option>Choose Country</option>
+                                </select>
+
+                                <p>City</p>
+
+                                <input type = "text" name = "city" value = "">
+                            </td>
+
+                            <td>
+                                <div class = "box">
+                                    <p>Copyright?</p>
+
+                                    <input type = "radio" name = "Copyright" value = "" id = "reserved"><label for = "reserved">All rights reserved</label><br>
+
+                                    <input type = "radio" name = "Copyright" value = "" id = "Creative"><label for = "Creative">Creative Commons</label>
+                                </div>
+
+                                <div class = "box">
+                                    <p>Creative Commons Types</p>
+
+                                    <input type = "checkbox" name = "Attribution" id = "Attribution"><label for = "Attribution">Attribution</label><br>
+
+                                    <input type = "checkbox" name = Noncommercial" id = "Noncommercial"><label for = "Noncommercial">Noncommercial</label><br>
+
+                                    <input type = "checkbox" name = "noDerivative" id = "noDerivative"><label for = "noDerivative">No Derivative Works</label>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan = "2">
+                                <div class = "rectangle">
+                                    <label for = "accept">I accept the software license</label><input type = "checkbox" name = "accept" value = "" id = "accept">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Rate this photo:</p>
+
+                                <input type = "number" name = "rateNumber" value = "">
+
+                                <p>Color Collection:</p>
+
+                                <input type = "color" name = "color" value = "">
+                            </td>
+
+                            <td>
+                                <div class = "box">
+                                    <p>Date Taken:</p>
+
+                                    <input type = "date" name = "data" value = ""><br>
+
+                                    <p>Time Taken:</p>
+
+                                    <input type = "time" name = "time" value = "">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan = "2">
+                                <div class = "rectangle">
+                                    <input type = "submit" name = "button" class = "rounded">
+
+                                    <input type = "reset" name = "button" class = "rounded">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+</main>
+</body>
+</html>
