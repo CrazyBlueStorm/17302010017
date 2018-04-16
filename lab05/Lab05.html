@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1, minimum-scale = 1, maximum-scale = 1,user-scalable = no"/>
+    <title>Lab05</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class = "container">
+    <header>
+        <nav class = "collapse navbar-collapse navbar navbar-expand-md navbar-light row">
+            <div class = "col-sm-auto text-center">
+                <h1>Share Your Travels</h1>
+
+                <p class = "font-intalic">Let us know where you've been</p>
+            </div>
+
+            <ul class = "collapse navbar-collapse navbar-nav justify-content-end nav-fill col-md-6 offset-md-1">
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "Lab05@.html">Gallery</a>
+                </li>
+
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "#">Feeling Luck</a>
+                </li>
+
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "#">Users</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class = "container">
+        <form class = "row" action = "http://www.randyconnolly.com/tests/process.php" method = "post">
+            <div class = "col-md-12">
+                <div class = "card">
+                    <div class = "card-body">
+                        <div class = "row">
+                            <div class = "col-md-12">
+                                <div class = "w-100">
+                                    <h2>Photo Details</h2>
+
+                                    <div class = "form-group">
+                                        <h5>Title</h5>
+
+                                        <input class = "w-100 form-control" type = "text" name = "title" placeholder = "Give your photo a descriptive name">
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <h5>Description</h5>
+
+                                        <textarea class = "w-100 form-control" name = "name" placeholder = "Adding a rich description will help with search results"></textarea>
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <h5>Continent</h5>
+
+                                        <select class = "w-100 form-control" name = "Continent">
+                                            <option>Choose Continent</option>
+                                        </select>
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <h5>Country</h5>
+
+                                        <select class = "w-100 form-control" name = "Country" placeholder = "Choose Continent">
+                                            <option>Choose Country</option>
+                                        </select>
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <h5>City</h5>
+
+                                        <input class = "w-100 form-control" type = "text" name = "city" value = "">
+                                    </div>
+
+                                    <div class = "form-froup">
+                                        <h5>Copyright?</h5>
+
+                                        <div class = "checkbox">
+                                            <input type = "radio" name = "Copyright" value = "" id = "copyes"><label for = "copyes">All rights reserved</label><br>
+
+                                            <input type = "radio" name = "Copyright" value = "" id = "copno"><label for = "copno">Creative Commones</label>
+                                        </div>
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <h5>Creative Commons Types</h5>
+
+                                        <div class = "form-check-inline">
+                                            <input type = "checkbox" name = "Attribution" id = "Attribution"><label for = "Attribution">Attribution</label>
+                                        </div>
+
+                                        <div class = "form-check-inline">
+                                            <input type = "checkbox" name = "Noncommercial" id = "Noncommercial"><label for = "Noncommercial">Noncommercial</label>
+                                        </div>
+
+                                        <div class = "form-check-inline">
+                                            <input type = "checkbox" name = "No Derivative Works" id = "No Derivative Works"><label for = "No Derivative Works">No Derivative Works</label>
+                                        </div>
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <input type = "checkbox" name = "accept" value = "" id = "accept"><label for = "accept">I accept the software license</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "row">
+                            <div class = "col-md-3">
+                                <div class = "form-group">
+                                    <h5>Rate this photo:</h5>
+
+                                    <input class = "w-100" type = "number" name = "rateNumber" value = "">
+                                </div>
+                            </div>
+
+                            <div class = "col-md-2"></div>
+
+                            <div class = "col-md-7">
+                                <div class = "form-group">
+                                    <h5>Color Collection</h5>
+
+                                    <input class = "w-100" type = "text" name = "color" value = "">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "row">
+                            <div class = "col-md-7">
+                                <div class = form-group">
+                                    <h5>Date Taken:</h5>
+
+                                    <input class = "w-100" type = "number" name = "rateNumber" value = "">
+                                </div>
+                            </div>
+
+                            <div class = "col-md-2"></div>
+
+                            <div class = "dol=md-3">
+                                <div class = "form-group">
+                                    <h5>Time Taken:</h5>
+
+                                    <input class = "w-100" type = "text" name = "color" value = "">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "row">
+                            <div class = "sol-md=4">
+                                <div class = "form-group">
+                                    <input type = submit" class = "btn btn-dark rounded-0" value = "Submit"><input type = "reset" class = "btn btn-dark rounded-0" value = "clear">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

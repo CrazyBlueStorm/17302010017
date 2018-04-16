@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1, minimum-scale = 1, maximum-scale = 1,user-scalable = no"/>
+    <title>Lab05</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+<body>
+    <header class = "container">
+        <nav class = "collapse navbar-collapse navbar navbar-expand-md navbar-light row">
+            <div class = "col-sm-auto text-center">
+                <h1>Share Your Travels</h1>
+
+                <p class = "font-italic">Let us know where you've been</p>
+            </div>
+
+            <ul class = "nav collapse navbar-collapse navbar justify-content-end nav-fill col-md-6 offset-md-1">
+                <li class = "nav-item"><a href = "Lab05.html" class = "nav-link">Upload</a></li>
+
+                <li class = "nav-item"><a href = "#" class = "nav-link">Related Photos</a></li>
+
+                <li class = "nav-item"><a href = "#" class = "nav-link">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class = "container">
+        <div class = "row">
+            <div class = "col-md-9">
+                <div class = "card">
+                    <div class = "card-body">
+                        <h3>New York - Central Park</h3>
+
+                        <p>Conservatory Pond in Central Park</p>
+
+                        <a href = "../images/large-central-park.jpg"><img class = "img-fluid" src = "../images/large-central-park.jpg" alt = "Central Park"></a>
+
+                        <p>This photo of Conservatory Pond in <a href="#"> Central Park </a> in <a href="#">New YorkCity</a> was taken on October 22,2016 with a Canon EOS 30D camera.</p>
+
+                        <div class = "float-right">
+                            <a href = "#" class = "btn" role = "button"><img src = "../images/icon_download.png" alt = ""></a>
+
+                            <a href = "#" class = "btn" role = "button"><img src = "../images/icon_comment.png" alt = ""></a>
+
+                            <a href = "#" class = "btn" role = "button"><img src = "../images/icon_map.png" alt = ""></a>
+
+                            <a href = "#" class = "btn" role = "button"><img src = "../images/icon_up.png" alt = ""></a>
+
+                            <a href = "#" class = "btn" role = "button"><img src = "../images/icon_down.png" alt = ""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-md-3">
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <div class = "card h-40">
+                            <div class = "card-body">
+                                <h3>Related Photos</h3>
+
+                                <div id = "demo" class = "carousel slide" data-ride = "carousel">
+                                    <ul class = "carousel-indicators">
+                                        <li data-target = "#demo" data-slide-to = "0" class = "active"></li>
+
+                                        <li data-target = "#demo" data-slide-to = "1"></li>
+
+                                        <li data-target = "#demo" data-slide-to = "2"></li>
+                                    </ul>
+
+                                    <div class = "carousel-inner">
+                                        <div class = "carousel-item active">
+                                            <a href = "../images/related-large1.jpg"><img class = "w-100" src = "../images/related-square1.jpg" alt = "Central Park"></a>
+                                        </div>
+
+                                        <div class = "carousel-item">
+                                            <a href = "../images/related-large2.jpg"><img class = "w-100" src = "../images/related-square2.jpg" alt = "Central Park"></a>
+                                        </div>
+
+                                        <div class = "carousel-item">
+                                            <a href = "../images/related-large3.jpg"><img class = "w-100" src = "../images/related-square3.jpg" alt = "Central Park"></a>
+                                        </div>
+                                    </div>
+
+                                    <a class = "carousel-control-prev" href = "#demo" data-slide = "prev">
+                                        <span class = "carousel-control-prev-icon"></span>
+                                    </a>
+
+                                    <a class = "carousel-control-next" href = "#demo" data-slide = "next">
+                                        <span class = "carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <div class = "card h-40">
+                            <div class = "card-body">
+                                <h3>Reviews</h3>
+
+                                <div class = "text-center">
+                                    <h5 class = "font-italic">Richard</h5>
+
+                                    <span class = "btn badge badge-info badge-pill" role = "button" data-toggle = "collapse" data-target = "#demo1">2016-05-23</span>
+
+                                    <p id = "demo1" class = "collapse">Easy on the HDR buddy</p>
+                                </div>
+
+                                <hr>
+
+                                <div class = "text-center">
+                                    <h5 class = "font-italic">Susan</h5>
+
+                                    <span class = "btn badge badge-info badge-pill" role = "button" data-toggle = "collapse" data-target = "#demo2">2016-11-18</span>
+
+                                    <p id = "demo2" class = "collapse">I love Central Park</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class = "container">
+        <div class = "row nav">
+            <div class = "nav-item col-md-3 text-center"></div>
+
+            <div class = "nav-item col-md-2 text-center">
+                <a href = "#" class = "nav-link">Home</a>
+            </div>
+
+            <div class = "nav-item col-md-2 text-center">
+                <a href = "#" class = "nav-link">Browse</a>
+            </div>
+
+            <div class = "nav-item col-md-2 text-center">
+                <a href = "#" class = "nav-link">Search</a>
+            </div>
+        </div>
+
+        <div class = "row">
+            <p class = "text-center col-md-12 font-italic">Copyright &copy; 2017 Share Your Travels</p>
+        </div>
+    </footer>
+</body>
+</html>
