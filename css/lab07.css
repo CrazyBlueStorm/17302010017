@@ -1,5 +1,5 @@
 body{
-    min-width:600px;
+    min-width:700px;
 }
 
 form{
@@ -12,25 +12,25 @@ section{
 }
 
 select,button{
-    height:30px;
-    width:300px;
+    height:40px;
+    width:400px;
 }
 
 button{
     display:none;
 }
 
-.tbCreate{
+.tableCreate{
     display:none;
 }
 
 select{
-    margin-top:50px;
+    margin-top:40px;
 }
 
-.aboutTb input{
-    width:140px;
-    margin-right:8px;
+.aboutTable input{
+    width:150px;
+    margin-right:10px;
 }
 
 table{
@@ -39,13 +39,12 @@ table{
 }
 
 table thead th{
-    background-color: grey;
     color:whitesmoke;
     min-width:40px;
 }
 
 td{
-    padding: 0 0.5em;
+    padding:0 0.6em;
 }
 
 input{
@@ -54,10 +53,10 @@ input{
     height:30px;
 }
 
-.gray{
-    background-color:lightgrey;
+.pink{
+    background-color:pink;
 }
 
 .information{
-    color:red;
+    color:yellow;
 }

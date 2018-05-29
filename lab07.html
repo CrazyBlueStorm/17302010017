@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>lab07ion></title>
+    <title>lab07</title>
     <link rel = "stylesheet" href = "css/lab07.css">
     <script src = "js/lab07.js" defer = "defer"></script>
 </head>
@@ -16,16 +16,16 @@
 
                 <option value = "addRow">Add row</option>
 
-                <option value = "delRow">Delete row</option>
+                <option value = "deleteRow">Delete row</option>
 
-                <option value = "delTable" title = "WARNING: You can't undo this action!">Delete table</option>
+                <option value = "deleteTable" title = "Attention: This is an irreversible action">Delete table</option>
             </select>
 
-            <div class = "tbCreate">
-                <div class = "aboutTb">
-                    <input type = "text" placeholder = "Table Name" id = "tbName">
+            <div class = "tableCreate">
+                <div class = "aboutTable">
+                    <input type = "text" placeholder = "Table Name" id = "tableName">
 
-                    <input type = "number" placeholder = "Columns Numbers" id = "colNumber">
+                    <input type = "number" placeholder = "Columns Numbers" id = "columnsNumbers">
                 </div>
 
                 <div class = "aboutColumn">
@@ -33,7 +33,7 @@
                 </div>
             </div><br>
 
-            <button>commit</button><br>
+            <button>Commit</button><br>
 
             <select name = "" id = "select2">
                 <option value = "select">Select</option>
@@ -42,11 +42,9 @@
 
         <div class = "information">
 
-
         </div>
 
         <div class = "lay-table">
-
 
         </div>
     </section>
